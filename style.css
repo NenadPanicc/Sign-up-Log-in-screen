@@ -1,7 +1,20 @@
 body {
-    background-image: linear-gradient(-90deg, lightBlue, navy);
+    background: navy;
     color:white;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-family: 'Lexend Deca', sans-serif;
 }
+@keyframes example {
+    0%   {background-color:rgb(3, 3, 192); left:0px; top:0px;}
+    25%  {background-color:rgb(72, 169, 201); left:200px; top:0px;}
+    50%  {background-color:rgb(3, 3, 192); left:200px; top:200px;}
+    75%  {background-color:rgb(72, 169, 201); left:0px; top:200px;}
+    100% {background-color:rgb(3, 3, 192); left:0px; top:0px;}
+} 
+
 .navbar-inverse {
     border-radius:0;
     background: none;
@@ -48,4 +61,7 @@ option {
 #registerBtn:hover {
    width:150px;
    height:50px;
+}
+.navbar .navbar-brand {
+    color:white;
 }
