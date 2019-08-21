@@ -10,4 +10,4 @@ During the creation of this project i have learned the following things:
 - Form validation
 - Use information from a form to greet a user while he/she is registering
 - Validate login form by checking through the array of users and matching first the email if that matches then the password.
-- Make a responsive website so it adapts to different screen displays
+- Make a responsive website so it adapts to different screen sizes
